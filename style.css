@@ -318,7 +318,7 @@ h3::before{
 @media(max-width:500px){
 
     .welcome-text{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #home .home-data p{
