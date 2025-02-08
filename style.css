@@ -161,9 +161,9 @@ h3::before{
     width: 120px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    align-items: center;
+    gap: 7px;
     padding: 20px;
     
     border-radius: 20px;
@@ -198,8 +198,14 @@ h3::before{
     -o-border-radius: 2px;
 }
 
+.service-card h4{
+   font-size: 1em;
+   font-weight: bold;
+}
+
 .service-description{
     padding: 10px;
+    font-size: 0.9em;
     border-radius: 20px 20px 20px 0px;
     -webkit-border-radius: 20px 20px 20px 0px;
     -moz-border-radius: 20px 20px 20px 0px;
@@ -301,6 +307,7 @@ h3::before{
         display: none;
     }
 
+
     #home .home-data{
         font-size: 0.9rem;
         width: 100%;
@@ -309,8 +316,22 @@ h3::before{
 }
 
 @media(max-width:500px){
+
+    .welcome-text{
+        font-size: 1rem;
+    }
+
+    #home .home-data p{
+        font-size: 0.8rem;
+    }
     .skill-container{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 60px;
+        font-size: 0.5rem;
+    }
+
+    .skill-container img{
+        height: 30px;
+        width: 30px;
     }
 }
