@@ -1,12 +1,12 @@
 let projectsContainer = document.querySelector(".projects-container");
 const projects = [
     {
-        title: "Cartoons",
+        title: "Home services",
         technologies: ["HTML", "CSS", "JavaScript"],
-        description: "website to display cartoon and movies characters and their cinematic works.",
-        image: "images/projects/cartoons.png",
-        link: "https://fatma372.github.io/Cartoons/",
-        code: "https://github.com/fatma372/Cartoons.git"
+        description: "website to introduce home services company and show it's services.",
+        image: "images/projects/inance.png",
+        link: "https://fatma372.github.io/Inance/",
+        code: "https://github.com/fatma372/Inance.git"
     },
     {
         title: "Bakery",
@@ -17,6 +17,14 @@ const projects = [
         code: "https://github.com/fatma372/bakery.git"
     },
     {
+        title: "Cartoons",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        description: "website to display cartoon and movies characters and their cinematic works.",
+        image: "images/projects/cartoons.png",
+        link: "https://fatma372.github.io/Cartoons/",
+        code: "https://github.com/fatma372/Cartoons.git"
+    },
+    {
         title: "Travilifa",
         technologies: ["HTML", "CSS", "JavaScript", "React","Bootstrap"],
         description: "UI to search for travel destintations, popular places and feedbacks.",
@@ -25,20 +33,20 @@ const projects = [
         code: "https://github.com/fatma372/Travilifa.git"
     },
     {
-        title: "Shopify",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        description: "website to display products, product categories and search on them.",
-        image: "images/projects/shopify.png",
-        link: "https://fatma372.github.io/shopify/",
-        code: "https://github.com/fatma372/shopify.git"
-    },
-    {
         title: "Get-shop",
         technologies: ["HTML", "CSS", "JavaScript"],
         description: "website to display products, product categories and search on them.",
         image: "images/projects/get.png",
         link: "https://fatma372.github.io/Get-shop/",
         code: "https://github.com/fatma372/Get-shop.git"
+    },
+    {
+        title: "Shopify",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        description: "website to display products, product categories and search on them.",
+        image: "images/projects/shopify.png",
+        link: "https://fatma372.github.io/shopify/",
+        code: "https://github.com/fatma372/shopify.git"
     },
     {
         title: "Postat",
