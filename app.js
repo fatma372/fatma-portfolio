@@ -1,6 +1,14 @@
 let projectsContainer = document.querySelector(".projects-container");
 const projects = [
     {
+        title: "Foody Restaurant",
+        technologies: ["Next js"," Tailwind"],
+        description: "A web application for recipes and meals instructons with search results",
+        image: "images/projects/foody-restaurant.png",
+        link: "https://foody-restaurant-9ph9-6xhxqw5bp-fatma372s-projects.vercel.app/",
+        code: "https://github.com/fatma372/foody-restaurant.git"
+    },
+    {
         title: "Home services",
         technologies: ["HTML", "CSS", "JavaScript"],
         description: "website to introduce home services company and show it's services.",
