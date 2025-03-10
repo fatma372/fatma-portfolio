@@ -5,7 +5,7 @@ const projects = [
         technologies: ["Next js"," Tailwind"],
         description: "A web application for recipes and meals instructons with search results",
         image: "images/projects/foody-restaurant.png",
-        link: "https://foody-restaurant-phi.vercel.app/",
+        link: "https://foody-restaurant-zeta.vercel.app/",
         code: "https://github.com/fatma372/foody-restaurant.git"
     },
     {
