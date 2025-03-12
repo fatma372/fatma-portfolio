@@ -2,11 +2,27 @@ let projectsContainer = document.querySelector(".projects-container");
 const projects = [
     {
         title: "Foody Restaurant",
-        technologies: ["Next js"," Tailwind"],
+        technologies: ["Next.js"," Tailwind"],
         description: "A web application for recipes and meals instructons with search results",
         image: "images/projects/foody-restaurant.png",
         link: "https://foody-restaurant-zeta.vercel.app/",
         code: "https://github.com/fatma372/foody-restaurant.git"
+    },
+    {
+        title: "Rotors",
+        technologies: ["React.js"," Tailwind"],
+        description: "A web application UI for cars",
+        image: "images/projects/rotors.png",
+        link: "https://rotors.vercel.app/",
+        code: "https://github.com/fatma372/rosto.git"
+    },
+    {
+        title: "Travilifa",
+        technologies: [ "React","Bootstrap"],
+        description: "UI to search for travel destintations, popular places and feedbacks.",
+        image: "images/projects/travilifa.png",
+        link: "https://travilifa.vercel.app/",
+        code: "https://github.com/fatma372/Travilifa.git"
     },
     {
         title: "Home services",
@@ -31,14 +47,6 @@ const projects = [
         image: "images/projects/cartoons.png",
         link: "https://fatma372.github.io/Cartoons/",
         code: "https://github.com/fatma372/Cartoons.git"
-    },
-    {
-        title: "Travilifa",
-        technologies: ["HTML", "CSS", "JavaScript", "React","Bootstrap"],
-        description: "UI to search for travel destintations, popular places and feedbacks.",
-        image: "images/projects/travilifa.png",
-        link: "https://travilifa.vercel.app/",
-        code: "https://github.com/fatma372/Travilifa.git"
     },
     {
         title: "Get-shop",
@@ -79,16 +87,18 @@ projects.forEach(project => {
     projectsContainer.innerHTML += `
     <div class="project-card card col-lg-3 col-9 p-2">
                 <img class="card-img" src=${project.image} alt=${project.title}>
-               <div class="card-body">
+               <div class="card-body d-flex flex-column gap-1 justify-content-between">
                 <h5 class="card-title">${project.title}</h5>
                 <p class="languages">
                    ${project.technologies.join(", ")}.
                 </p>
                 
                 <p class="card-text description">${project.description}</p>
+                <div> 
                 <a href=${project.link} target="_blank" class="link btn btn-dark text-dark shadow-sm"><i class="fa-solid fa-link"></i> <span class="text-light"> view </span> </a>
                 <a href=${project.code} target="_blank" class="code btn btn-dark text-dark shadow-sm"><i class="fab fa-github"></i> </a>
                 
+                </div>
                </div>
             </div>
     `;
