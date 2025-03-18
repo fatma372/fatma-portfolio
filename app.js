@@ -93,7 +93,7 @@ const projects = [
 
 projects.forEach(project => {
     projectsContainer.innerHTML += `
-    <div class="project-card card col-lg-3 col-9 p-2">
+    <div class="project-card card col-lg-3 col-10 p-2">
                 <img class="card-img" src=${project.image} alt=${project.title}>
                <div class="card-body d-flex flex-column gap-1 justify-content-between">
                 <h5 class="card-title">${project.title}</h5>

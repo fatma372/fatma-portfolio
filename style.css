@@ -164,15 +164,13 @@ h3::before{
     justify-content: center;
     align-items: center;
     gap: 7px;
-    padding: 20px;
-    
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-
-   background-color:  rgba(128, 128, 128, 0.274);
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color:  rgba(128, 128, 128, 0.274);
 }
 
 .skill-container:hover{
@@ -333,5 +331,6 @@ h3::before{
     .skill-container img{
         height: 30px;
         width: 30px;
+        object-fit: contain;
     }
 }
