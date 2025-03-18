@@ -11,7 +11,7 @@ const projects = [
     {
         title: "Charles Business",
         technologies: ["React.js"," Tailwind"],
-        description: "A web application for recipes and meals instructons with search results",
+        description: "A web application UI for business development website",
         image: "images/projects/charles.png",
         link: "https://charles-pink.vercel.app",
         code: "https://github.com/fatma372/charles.git"
