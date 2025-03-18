@@ -9,6 +9,14 @@ const projects = [
         code: "https://github.com/fatma372/foody-restaurant.git"
     },
     {
+        title: "Charles Business",
+        technologies: ["React.js"," Tailwind"],
+        description: "A web application for recipes and meals instructons with search results",
+        image: "images/projects/charles.png",
+        link: "https://charles-pink.vercel.app",
+        code: "https://github.com/fatma372/charles.git"
+    },
+    {
         title: "Rotors",
         technologies: ["React.js"," Tailwind"],
         description: "A web application UI for cars",
