@@ -1,5 +1,13 @@
 let projectsContainer = document.querySelector(".projects-container");
 const projects = [
+     {
+        title: "Maintainance Now",
+        technologies: ["React.js"," Tailwind","redux","axios"],
+        description: "on demand maintainance service website to book maintainance services",
+        image: "images/projects/maintenance-now.png",
+        link: "https://maintainance-now.vercel.app",
+        code: "https://github.com/fatma372/maintainance-now"
+    },
     {
         title: "Foody Restaurant",
         technologies: ["Next.js"," Tailwind"],
@@ -7,6 +15,23 @@ const projects = [
         image: "images/projects/foody-restaurant.png",
         link: "https://foody-restaurant-zeta.vercel.app/",
         code: "https://github.com/fatma372/foody-restaurant.git"
+    },
+    {
+        title: "Courses dashboard",
+        technologies: ["React.js"," Tailwind","Context API"],
+        description: "A web application for courses dashboard with search results and edit courses or delete them",
+        image: "images/projects/courses-dashboard.png",
+        link: "https://courses-dashboard-mu.vercel.app/",
+        code: "https://github.com/fatma372/courses-dashboard.git"
+    },
+    {
+        title: "Express shop",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        description: "website to display products, product categories and search on them.",
+        image: "images/projects/express-store.png",
+        link: "https://fatma372.github.io/express-shop/",
+        code: "https://github.com/fatma372/express-shop.git"
+
     },
     {
         title: "Charles Business",
