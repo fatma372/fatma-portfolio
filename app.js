@@ -25,6 +25,14 @@ const projects = [
         code: "https://github.com/fatma372/courses-dashboard.git"
     },
     {
+        title: "Cartoons",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        description: "website to display cartoon and movies characters and their cinematic works.",
+        image: "images/projects/cartoons.png",
+        link: "https://fatma372.github.io/Cartoons/",
+        code: "https://github.com/fatma372/Cartoons.git"
+    },
+     {
         title: "Express shop",
         technologies: ["HTML", "CSS", "JavaScript"],
         description: "website to display products, product categories and search on them.",
@@ -58,6 +66,22 @@ const projects = [
         code: "https://github.com/fatma372/Travilifa.git"
     },
     {
+        title: "Bakery",
+        technologies: ["HTML", "CSS","Bootstrap", "JavaScript"],
+        description: "Bakery website showing products and bakery overview.",
+        image: "images/projects/bakery.png",
+        link: "https://fatma372.github.io/bakery/",
+        code: "https://github.com/fatma372/bakery.git"
+    },
+     {
+        title: "Shopify",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        description: "website to display products, product categories and search on them.",
+        image: "images/projects/shopify.png",
+        link: "https://fatma372.github.io/shopify/",
+        code: "https://github.com/fatma372/shopify.git"
+    },
+     {
         title: "Home services",
         technologies: ["HTML", "CSS", "JavaScript"],
         description: "website to introduce home services company and show it's services.",
@@ -66,36 +90,12 @@ const projects = [
         code: "https://github.com/fatma372/Inance.git"
     },
     {
-        title: "Bakery",
-        technologies: ["HTML", "CSS","Bootstrap", "JavaScript"],
-        description: "Bakery website showing products and bakery overview.",
-        image: "images/projects/bakery.png",
-        link: "https://fatma372.github.io/bakery/",
-        code: "https://github.com/fatma372/bakery.git"
-    },
-    {
-        title: "Cartoons",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        description: "website to display cartoon and movies characters and their cinematic works.",
-        image: "images/projects/cartoons.png",
-        link: "https://fatma372.github.io/Cartoons/",
-        code: "https://github.com/fatma372/Cartoons.git"
-    },
-    {
         title: "Get-shop",
         technologies: ["HTML", "CSS", "JavaScript"],
         description: "website to display products, product categories and search on them.",
         image: "images/projects/get.png",
         link: "https://fatma372.github.io/Get-shop/",
         code: "https://github.com/fatma372/Get-shop.git"
-    },
-    {
-        title: "Shopify",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        description: "website to display products, product categories and search on them.",
-        image: "images/projects/shopify.png",
-        link: "https://fatma372.github.io/shopify/",
-        code: "https://github.com/fatma372/shopify.git"
     },
     {
         title: "Postat",
