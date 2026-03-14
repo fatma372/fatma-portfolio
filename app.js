@@ -207,4 +207,50 @@ document.addEventListener('DOMContentLoaded', function () {
             switchProjectCategory(category);
         });
     });
+
+    // Self-scrolling infinite loop for skills and services
+    const containers = document.querySelectorAll('.skills-container1, .skills-container2');
+
+    containers.forEach(container => {
+        let originalChildren = Array.from(container.children);
+
+        // Ensure enough clones to fill a wide screen
+        let clonesCount = container.classList.contains('services-container') ? 6 : 2;
+
+        for (let i = 0; i < clonesCount; i++) {
+            originalChildren.forEach(child => {
+                container.appendChild(child.cloneNode(true));
+            });
+        }
+
+        let scrollAmount = 0;
+        let exactSetWidth = 0;
+        let isHovered = false;
+
+        container.addEventListener('mouseenter', () => isHovered = true);
+        container.addEventListener('mouseleave', () => isHovered = false);
+        container.addEventListener('touchstart', () => isHovered = true);
+        container.addEventListener('touchend', () => isHovered = false);
+
+        function scrollLoop() {
+            if (!isHovered && exactSetWidth > 0) {
+                scrollAmount += 1;
+                if (scrollAmount >= exactSetWidth) {
+                    scrollAmount -= exactSetWidth;
+                }
+                container.scrollLeft = scrollAmount;
+            }
+            requestAnimationFrame(scrollLoop);
+        }
+
+        // Wait for layout to settle before calculating width
+        setTimeout(() => {
+            if (originalChildren.length > 0) {
+                const first = originalChildren[0];
+                const cloneFirst = container.children[originalChildren.length];
+                exactSetWidth = cloneFirst.offsetLeft - first.offsetLeft;
+            }
+            scrollLoop();
+        }, 500);
+    });
 });
