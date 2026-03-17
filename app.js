@@ -27,6 +27,15 @@ const projectCategories = {
             link: "https://mortgage-finder.vercel.app/",
             role: "Frontend developer",
 
+        }, {
+            title: "Rakeeza-CV",
+            technologies: ["Next.js", "Tailwind"],
+            image: "images/projects/rakeeza.jpg",
+            description: "A web application designed for generating professional Arabic CVs.",
+
+            link: "https://rakeeza-cv.vercel.app/",
+            role: "Frontend developer",
+
         }
     ],
     educational: [
