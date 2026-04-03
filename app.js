@@ -16,7 +16,7 @@ const projectCategories = {
             technologies: ["React.js", "Tailwind", "axios", "supabase", "node.js", "express js", "firebase"],
             image: "images/projects/pf.png",
             description: "Property Finder is a web application that helps users find the best property for their needs.",
-            link: "",
+            link: "https://www.propertyfinder.ae/",
             role: "Full-stack developer",
 
         }, {
@@ -27,7 +27,17 @@ const projectCategories = {
             link: "https://mortgage-finder.vercel.app/",
             role: "Frontend developer",
 
-        }, {
+        },
+        {
+            title: "Sabbaq BDC",
+            technologies: ["Next.js",'TypeScript',"Framer-Motion", "Tailwind", "axios", "supabase", "node.js", "express js"],
+            image: "images/projects/sabbaq.png",
+            description: "company website",
+            link: "https://sabbaq.vercel.app/",
+            role: "Full-stack developer",
+
+        }
+        , {
             title: "Rakeeza-CV",
             technologies: ["Next.js", "Tailwind"],
             image: "images/projects/rakeeza.jpg",
@@ -54,6 +64,39 @@ const projectCategories = {
             image: "images/projects/foody-restaurant.png",
             link: "https://foody-restaurant-zeta.vercel.app/",
             code: "https://github.com/fatma372/foody-restaurant.git"
+        },
+                {
+            title: "Charles Business",
+            technologies: ["React.js", " Tailwind"],
+            description: "A web application UI for business development website",
+            image: "images/projects/charles.png",
+            link: "https://charles-pink.vercel.app",
+            code: "https://github.com/fatma372/charles.git"
+        },
+        {
+            title: "Rotors",
+            technologies: ["React.js", " Tailwind"],
+            description: "A web application UI for cars",
+            image: "images/projects/rotors.png",
+            link: "https://rotors.vercel.app/",
+            code: "https://github.com/fatma372/rosto.git"
+        },
+        {
+            title: "Travilifa",
+            technologies: ["React", "Bootstrap"],
+            description: "UI to search for travel destintations, popular places and feedbacks.",
+            image: "images/projects/travilifa.png",
+            link: "https://travilifa.vercel.app/",
+            code: "https://github.com/fatma372/Travilifa.git"
+        }
+        ,
+        {
+            title: "Home services",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            description: "website to introduce home services company and show it's services.",
+            image: "images/projects/inance.png",
+            link: "https://fatma372.github.io/Inance/",
+            code: "https://github.com/fatma372/Inance.git"
         },
         {
             title: "Courses dashboard",
@@ -95,14 +138,7 @@ const projectCategories = {
             link: "https://fatma372.github.io/shopify/",
             code: "https://github.com/fatma372/shopify.git"
         },
-        {
-            title: "Home services",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            description: "website to introduce home services company and show it's services.",
-            image: "images/projects/inance.png",
-            link: "https://fatma372.github.io/Inance/",
-            code: "https://github.com/fatma372/Inance.git"
-        },
+        
         {
             title: "Get-shop",
             technologies: ["HTML", "CSS", "JavaScript"],
@@ -127,30 +163,7 @@ const projectCategories = {
             link: "https://fatma372.github.io/to-do-list/",
             code: "https://github.com/fatma372/to-do-list.git"
         },
-        {
-            title: "Charles Business",
-            technologies: ["React.js", " Tailwind"],
-            description: "A web application UI for business development website",
-            image: "images/projects/charles.png",
-            link: "https://charles-pink.vercel.app",
-            code: "https://github.com/fatma372/charles.git"
-        },
-        {
-            title: "Rotors",
-            technologies: ["React.js", " Tailwind"],
-            description: "A web application UI for cars",
-            image: "images/projects/rotors.png",
-            link: "https://rotors.vercel.app/",
-            code: "https://github.com/fatma372/rosto.git"
-        },
-        {
-            title: "Travilifa",
-            technologies: ["React", "Bootstrap"],
-            description: "UI to search for travel destintations, popular places and feedbacks.",
-            image: "images/projects/travilifa.png",
-            link: "https://travilifa.vercel.app/",
-            code: "https://github.com/fatma372/Travilifa.git"
-        }
+
     ]
 };
 
