@@ -35,48 +35,95 @@
         </nav>
     </header>
     <main>
-        <section id="home" class="row container-fluid ">
-            <div class="home-data col-lg-7 col-8 col">
-                <h2 class="welcome-text pink-text mb-3"></h2>
+        <section id="home">
+            <!-- Decorative blobs -->
+            <div class="hero-blob hero-blob--1"></div>
+            <div class="hero-blob hero-blob--2"></div>
+            <div class="hero-blob hero-blob--3"></div>
 
-                <p>
-                    I am a Front-end Developer and a MERN Stack Developer, specializing in creating responsive and
-                    user-friendly web applications using modern technologies.
-                </p>
-                <p>
-                    I am also a Certified Professional Trainer and Web Development
-                    Instructor. I have created and delivered comprehensive training programs on front-end and full-stack
-                    (MERN) development.
-                </p>
-                <div class="icons-container my-2">
+            <div class="hero-inner">
+                <!-- Left column: text -->
+                <div class="hero-content">
+                    <div class="hero-greeting">👋 Hello, I'm</div>
 
-                    <a href="https://wa.me/201004784403" target="_blank"
-                        class="icon-btn btn btn-outline-secondary text-dark shadow-sm"><i
-                            class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://www.linkedin.com/in/fatma-akram-92b34b237" target="_blank"
-                        class="icon-btn btn btn-outline-secondary text-dark shadow-sm"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.youtube.com/@fatma.akram7" target="_blank"
-                        class="icon-btn btn btn-outline-secondary text-dark shadow-sm"><i
-                            class="fa-brands fa-youtube"></i></a>
-                    <a href="mailto:fatma72w@gmail.com" target="_blank"
-                        class="icona-btn btn btn-outline-secondary text-dark shadow-sm"><i
-                            class="fa-solid fa-envelope"></i></a>
-                    <a href="https://github.com/fatma372" target="_blank"
-                        class="icon-btn btn btn-outline-secondary text-dark shadow-sm"><i class="fab fa-github"></i></a>
+                    <h1 class="hero-name">Fatma Akram</h1>
 
+                    <div class="hero-roles">
+                        <span class="role-badge">Front-end Developer</span>
+                        <span class="role-badge">MERN Stack Developer</span>
+                        <span class="role-badge">Certified Trainer</span>
+                    </div>
 
+                    <p class="hero-bio">
+                        I craft <strong>responsive, user-friendly web applications</strong> using modern technologies.
+                        As a <strong>Certified Professional Trainer</strong>, I also design and deliver comprehensive
+                        front-end &amp; full-stack (MERN) training programs.
+                    </p>
+
+                    <!-- Stats row -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Exp.</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="1500">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Training Hours</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Students</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA buttons -->
+                    <div class="hero-cta">
+                        <a class="cta-primary" href="./files/Fatma Akram Hassan.pdf" download="fatma-akram.pdf">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                        </a>
+                        <a class="cta-secondary" href="#projects">
+                            View Projects <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Social icons -->
+                    <div class="hero-socials">
+                        <a href="https://wa.me/201004784403" target="_blank" class="social-icon" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span class="social-tooltip">WhatsApp</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/fatma-akram-92b34b237" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span class="social-tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://www.youtube.com/@fatma.akram7" target="_blank" class="social-icon" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span class="social-tooltip">YouTube</span>
+                        </a>
+                        <a href="mailto:fatma72w@gmail.com" target="_blank" class="social-icon" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="social-tooltip">Email</span>
+                        </a>
+                        <a href="https://github.com/fatma372" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                            <span class="social-tooltip">GitHub</span>
+                        </a>
+                    </div>
                 </div>
-                <a class="btn btn-secondary px-4 border-1 cv-btn" href="./files/Fatma Akram Hassan.pdf"
-                    download="fatma-akram.pdf">
-                    <span class="text-dark"> Download CV <i class="fa-solid fa-file-arrow-down mx-1 text-dark"></i>
-                    </span>
-                </a>
+
+                <!-- Right column: image -->
+                <div class="hero-image-wrap">
+                    <div class="hero-img-ring"></div>
+                    <img src="images/eng-fatma.jpg" alt="Fatma Akram" class="hero-img">
+                </div>
             </div>
 
-            <div class="home-img col-lg-5 col-4 col">
-                <img src="images/eng.svg" alt="Fatma Akram">
-            </div>
+            <!-- Scroll indicator -->
+            <a href="#skills" class="scroll-indicator" aria-label="Scroll down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
         </section>
 
         <hr>

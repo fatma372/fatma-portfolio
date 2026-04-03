@@ -222,6 +222,23 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initial render with all projects
     renderProjects('all');
 
+    // Animate stat counters
+    document.querySelectorAll('.stat-number').forEach(el => {
+        const target = parseInt(el.dataset.target, 10);
+        const duration = 1600;
+        const step = target / (duration / 16);
+        let current = 0;
+        const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+                el.textContent = target;
+                clearInterval(timer);
+            } else {
+                el.textContent = Math.floor(current);
+            }
+        }, 16);
+    });
+
     // Add click event listeners to category buttons
     document.querySelectorAll('.project-category-btn').forEach(button => {
         button.addEventListener('click', function () {
